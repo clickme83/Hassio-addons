@@ -1,0 +1,25 @@
+{
+    "name": "Checkmk",
+    "version": "0.0.1",
+    "slug": "checkmk",
+    "legacy": false,
+    "description": "Checkmk provides powerful monitoring of networks, servers, clouds, containers and applications",
+    "url": "https://github.com/clickme83/hassio-addons/tree/master/checkmk#readme",
+    "arch": [
+        "amd64"
+      ],
+    "ports": {
+      "5000/tcp": 5000
+    },
+    "ports_description": {
+      "5000/tcp": "web interface"
+    },
+    "map": [
+        "config:rw",
+        "share:rw",
+        "ssl"
+      ],
+    "webui": "http://[HOST]:[PORT:5000]/monitoring/check_mk/",
+    "boot": "auto",
+    "image": "clickme83/ha-checkmk"
+  }
