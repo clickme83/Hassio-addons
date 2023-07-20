@@ -2,7 +2,7 @@
     "name": "Checkmk",
     "version": "0.0.2",
     "slug": "checkmk",
-    "legacy": false,
+    "legacy": true,
     "description": "Checkmk provides powerful monitoring of networks, servers, clouds, containers and applications",
     "url": "https://github.com/clickme83/hassio-addons/tree/master/checkmk#readme",
     "arch": [
