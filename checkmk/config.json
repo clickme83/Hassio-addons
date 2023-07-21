@@ -1,6 +1,6 @@
 {
     "name": "Check_MK",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "slug": "checkmk",
     "legacy": false,
     "description": "Checkmk provides powerful monitoring of networks, servers, clouds, containers and applications",
@@ -21,5 +21,5 @@
       ],
     "webui": "http://[HOST]:[PORT:5000]/monitoring/check_mk/",
     "boot": "auto",
-    "image": "clickme83/ha-checkmk"
+    "image": "clickme83/ha-checkmk:latest"
   }
