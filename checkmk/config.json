@@ -21,5 +21,5 @@
       ],
     "webui": "http://[HOST]:[PORT:5000]/monitoring/check_mk/",
     "boot": "auto",
-    "image": "github.com/clickme83/ha-checkmk"
+    "image": "github.com/clickme83/ha-checkmk:latest"
   }
