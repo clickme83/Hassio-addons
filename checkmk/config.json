@@ -20,5 +20,5 @@
         "ssl"
       ],
     "webui": "http://[HOST]:[PORT:5000]/monitoring/check_mk/",
-    "boot": "auto",
+    "boot": "auto"
   }
