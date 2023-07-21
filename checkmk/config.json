@@ -12,7 +12,9 @@
       "5000/tcp": 5000
     },
     "ports_description": {
-      "5000/tcp": "web interface"
+      "5000/tcp": "Website",
+      "6557/tcp": "Agent Communication",
+      "8000/tcp": "TLS Registration"
     },
     "map": [
         "config:rw",
