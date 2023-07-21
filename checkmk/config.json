@@ -1,6 +1,6 @@
 {
     "name": "Check_MK",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "slug": "checkmk",
     "legacy": false,
     "description": "Checkmk provides powerful monitoring of networks, servers, clouds, containers and applications",
